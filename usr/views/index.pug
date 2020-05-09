@@ -1,0 +1,10 @@
+extends layout
+
+block content
+  main#content
+    div#map.map.map-full
+
+# Add Key
+block scripts
+  script(src='https://maps.googleapis.com/maps/api/js?sensor=true&key=')
+  script(src='/javascripts/build.js')

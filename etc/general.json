@@ -1,0 +1,24 @@
+{
+
+  "name": "Find-My-Friends",
+
+  "static": {
+    "path": "/srv",
+    "passthrough": true
+  },
+
+  "engine": {
+    "views": {
+      "path": "/usr/views",
+      "engine": "pug"
+    },
+    "builder": {
+      "entry": "/app/index.js",
+      "output": "/srv/javascripts/build.js",
+      "extensions": [
+        ".js", ".json"
+      ]
+    }
+  }
+
+}
