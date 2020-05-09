@@ -1,4 +1,4 @@
-# nearby
+# Find My Friends
 
 ![screenshot](https://user-images.githubusercontent.com/1780466/46572800-10d81080-c98c-11e8-9561-255fc1011df7.png)
 
@@ -6,8 +6,6 @@
 users and render them as markers on a google maps front-end.
 
 ## Installation
-
-Clone with [git(1)](http://help.github.com):
 
     $ git clone https://github.com/bodokaiser/nearby
 
